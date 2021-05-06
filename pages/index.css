@@ -20,3 +20,6 @@
 @import url(../blocks/footer/footer__nav-item.css);
 @import url(../blocks/footer/footer__nav-link.css);
 @import url(../blocks/footer/footer__social.css);
+
+@import url(../blocks/calendar/calendar.css);
+@import url(../blocks/button/button.css);

@@ -1,0 +1,14 @@
+.btn {
+  box-sizing: border-box;
+  padding: 13px 20px 16px;
+  border: 1px solid #224CFF;
+  border-radius: 100px;
+  background-color: inherit;
+  font-family: /*Proto Grotesk Web Light*/ sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: 0.2px;
+  color: #224CFF;
+  text-align: center;
+}
