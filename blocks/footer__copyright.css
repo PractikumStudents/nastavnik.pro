@@ -1,0 +1,18 @@
+.footer__copyright {
+  color: #C8D1FF;
+  margin: 0;
+  padding-bottom: 12px;
+}
+
+@media (max-width: 1190px) {
+  .footer__copyright {
+    display: inline;
+    padding-bottom: 0;
+    padding-right: 30px;
+  }
+}
+@media (max-width: 790px) {
+  .footer__copyright {
+    padding-right: 0;
+  }
+}

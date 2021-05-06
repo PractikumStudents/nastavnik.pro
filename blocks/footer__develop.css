@@ -1,0 +1,19 @@
+.footer__develop {
+  display: inline;
+  padding-right: 30px;
+  margin: 0;
+}
+.footer__develop:last-child {
+  padding-right: 0px;
+}
+
+@media (max-width: 790px) {
+  .footer__develop {
+   padding-top: 5px;
+  }
+}
+@media (max-width: 500px) {
+  .footer__develop {
+    padding-right: 0;
+  }
+}

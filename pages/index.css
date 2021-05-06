@@ -1,7 +1,22 @@
 @import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
 
 @import url(../blocks/header/header.css);
 
 @import url(../blocks/main/main.css);
 
-@import url(../blocks/footer/footer.css);
+/* стили footer */
+@import url(../blocks/footer.css);
+@import url(../blocks/footer__columns.css);
+@import url(../blocks/footer__logo.css);
+@import url(../blocks/footer__logo-img.css);
+@import url(../blocks/footer__button.css);
+@import url(../blocks/footer__author.css);
+@import url(../blocks/footer__copyright.css);
+@import url(../blocks/footer__develop.css);
+@import url(../blocks/footer__develop-link.css);
+@import url(../blocks/footer__navigation.css);
+@import url(../blocks/footer__links.css);
+@import url(../blocks/footer__nav-item.css);
+@import url(../blocks/footer__nav-link.css);
+@import url(../blocks/footer__social.css);

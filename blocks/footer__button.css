@@ -1,0 +1,31 @@
+.footer__button {
+  grid-area: button;
+  width: 169px;
+  height: 48px;
+  font-family: 'Proto Grotesk Web Light', Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  color: #F3F2F2;
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: 0.2px;
+  background-color: #2E2468;
+  border: 1px solid #F3F2F2;
+  border-radius: 100px;
+  outline: none;
+  margin-top: 30px;
+}
+.footer__button:hover {
+  color: #C8D1FF;
+  border: 1px solid #C8D1FF;
+  cursor: pointer;
+}
+
+@media (max-width: 1190px) {
+  .footer__button {
+    width: 134px;
+    height: 40px;
+    font-size: 12px;
+    line-height: 17px;
+    margin-bottom: 30px;
+  }
+}

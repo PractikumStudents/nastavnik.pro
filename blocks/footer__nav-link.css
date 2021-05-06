@@ -1,0 +1,17 @@
+.footer__nav-link {
+  color: #F3F2F2;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.footer__nav-link:hover {
+  color: #C8D1FF;
+  cursor: pointer;
+}
+
+@media (max-width: 1190px)  {
+  .footer__nav-link {
+    display: inline-block;
+  }
+}

@@ -1,0 +1,8 @@
+.footer__develop-link {
+  color: #F3F2F2;
+  text-decoration: underline;
+}
+.footer__develop-link:hover {
+  color: #C8D1FF;
+  cursor: pointer;
+}
