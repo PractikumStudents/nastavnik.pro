@@ -3,8 +3,6 @@
   padding: 30px;
   border-radius: 30px;
   color: #000000;
-  /* временно */
-  border: 1px solid #ee8888;
   /* общие */
   box-sizing: border-box;
 }
@@ -74,14 +72,13 @@
 }
 
 .calendar__left {
+  flex-basis: 50%;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.calendar__btn {
-  
-}
+/* .calendar__btn {} */
 
 .calendar__more {
   width: 48px;
@@ -95,5 +92,13 @@
 }
 
 .calendar__ellipsis {
-  
+  display: block;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: #224CFF;
+}
+
+.calendar__ellipsis:not(:last-child) {
+  margin-right: 4px;
 }
