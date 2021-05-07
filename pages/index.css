@@ -5,21 +5,14 @@
 
 @import url(../blocks/main/main.css);
 
+/* стили card-website */
+@import url(../blocks/card-website/card-website.css);
+
+/* стили card-article */
+@import url(../blocks/card-article/card-article.css);
+
 /* стили footer */
 @import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/footer__columns.css);
-@import url(../blocks/footer/footer__logo.css);
-@import url(../blocks/footer/footer__logo-img.css);
-@import url(../blocks/footer/footer__button.css);
-@import url(../blocks/footer/footer__author.css);
-@import url(../blocks/footer/footer__copyright.css);
-@import url(../blocks/footer/footer__develop.css);
-@import url(../blocks/footer/footer__develop-link.css);
-@import url(../blocks/footer/footer__navigation.css);
-@import url(../blocks/footer/footer__links.css);
-@import url(../blocks/footer/footer__nav-item.css);
-@import url(../blocks/footer/footer__nav-link.css);
-@import url(../blocks/footer/footer__social.css);
 
 @import url(../blocks/calendar/calendar.css);
 @import url(../blocks/button/button.css);
