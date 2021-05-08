@@ -1,0 +1,152 @@
+.page {
+  background-color: #F3F2F2;
+}
+.main {
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+
+  font-family: 'Proto Grotesk Web Light', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  color: #000000;
+}
+
+.title {
+  width: 1030px;
+  font-size: 44px;
+  line-height: 50px;
+  text-align: center;
+  margin: 80px auto 50px;
+}
+
+.logo {
+  margin: auto;
+}
+.logo__img {
+  width: 357px;
+  height: 65px;
+}
+
+.figures {
+  display: flex;
+  justify-content: center;
+  margin: 80px auto;
+}
+.figure-circle {
+  width: 570px;
+  height: 570px;
+  background-color: #F8D162;;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.figure-circle__text {
+  font-size: 23px;
+  line-height: 30px;
+}
+.figure-square {
+  width: 600px;
+  height: 570px;
+  background-color: #FFFFFF;;
+  border-radius: 30px;
+}
+.figure-square__wrapper {
+  width: 540px;
+  margin: 52px 30px;
+}
+.figure-square__text {
+  font-family: 'PT Root UI', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  padding-bottom: 30px;
+  margin: 0;
+}
+.figure-square__text:last-child {
+  padding-bottom: 0;
+}
+
+.quote {
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  padding: 60px 0 ;
+  display: flex;
+  justify-content: center;
+}
+.quote__text {
+  font-size: 44px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  margin: 80px 0 120px;
+}
+.card {
+  padding-right: 30px;
+}
+.card:last-child {
+  padding-right: 0;
+}
+.card__color {
+  width: 370px;
+  height: 120px;
+  border-radius: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card__color_blue{
+  background-color: #C8D1FF;
+}
+.card__color_red {
+  background-color: #FF8585;
+}
+.card__color_green {
+  background-color: #8CDD94;
+}
+.card__title {
+  font-size: 23px;
+  line-height: 30px;
+}
+.card__main {
+  width: 370px;
+  height: 369px;
+  background-color: #FFFFFF;
+  border-radius: 30px;
+}
+.card__main-wrapper {
+  width: 310px;
+  height: 369px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+.card__text {
+  font-family: 'PT Root UI', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  padding-top: 30px;
+  margin: 0;
+}
+.card__link {
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: 0.2px;
+  color: #224CFF;
+  text-decoration: none;
+  justify-self: flex-end;
+  padding-bottom: 30px;
+}
+.card__link:hover {
+  color: #C8D1FF;
+  cursor: pointer;
+}

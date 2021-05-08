@@ -1,0 +1,11 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+
+/* стили header */
+@import url(../blocks/header.css);
+
+/* стили main */
+@import url(../blocks/about/about.css);
+
+/* стили footer */
+@import url(../blocks/footer/footer.css);
