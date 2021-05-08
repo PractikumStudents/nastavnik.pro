@@ -3,8 +3,7 @@
     max-width: 1770px;
     width: 100%;
     padding: 40px 0 0;
-    margin: 0 auto;
-    border: 1px solid red;
+    margin: 0 auto 80px;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
@@ -83,13 +82,14 @@
     width: 100%;
     height: 100%;
     background-image: url(./../images/header-unautorised-user.svg);
-    background-size: 20px 20px cover;    
+    background-size: cover;    
     background-position: center;
     background-repeat: no-repeat;
+    background-color: transparent;
     border: none;
-    padding: 5px;
     cursor: pointer;
     transition: opacity 2s;
+    padding: 0;
 }
 
 .header__lk:hover {
@@ -102,15 +102,21 @@
     width: 100%;
     height: 100%;
     background-image: url(./../images/header-search.svg);
-    background-size: 20px 20px cover;
+    background-size: 20px 20px;
     background-position: center;
     background-repeat: no-repeat;
+    background-color: transparent;
     border: none;
-    padding: 5px;
     cursor: pointer;
     transition: opacity 2s;
 }
 
 .header__search:hover {
     opacity: 0.6;
+}
+
+@media screen and (max-width: 1024px) {
+    .header {
+        display: none;
+    }
 }

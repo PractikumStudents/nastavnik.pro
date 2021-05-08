@@ -93,10 +93,12 @@
 }
 
 .article_color_light-blue {
+  grid-area: simpleArticlePurple;
   background: #C8D1FF;
 }
 
 .article_color_green {
+  grid-area: simpleArticleGreen;
   background: #8CDD94;
 }
 

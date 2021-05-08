@@ -3,6 +3,11 @@
 
 @import url(../blocks/page/page.css);
 @import url(../blocks/rubric/rubric.css);
+@import url(../blocks/text-styles.css);
+@import url(../blocks/theme.css);
+
+@import url(../blocks/header.css);
+@import url(../blocks/header-mobile.css);
 
 @import url(../blocks/main/main.css);
 
@@ -11,6 +16,10 @@
 @import url(../blocks/story/story.css);
 
 @import url(../blocks/article/article.css);
+
+@import url(../blocks/film-frame.css);
+@import url(../blocks/film-about.css);
+
 
 @import url(../blocks/translation/translation.css);
 

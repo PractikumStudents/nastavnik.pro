@@ -1,9 +1,11 @@
 .translation {
+  box-sizing: border-box;
   display: flex;
 }
 
 .translation__preview {
-  max-width: 570px;
+  box-sizing: border-box;
+  min-width: 570px;
   padding: 30px 50px;
   background: #F8D162;
   border-radius: 30px;

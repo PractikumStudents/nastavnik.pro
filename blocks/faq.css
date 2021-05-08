@@ -1,4 +1,6 @@
-.faq {}
+.faq {
+  box-sizing: border-box;
+}
 
 .faq__list {
   padding: 0;

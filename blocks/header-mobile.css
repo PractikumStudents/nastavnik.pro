@@ -59,3 +59,9 @@
 .header-mobile__burger-menu:hover {
     opacity: 0.6;
 }
+
+@media screen and (min-width: 1025px) {
+    .header-mobile {
+        display: none;
+    }
+}
