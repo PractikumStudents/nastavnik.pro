@@ -12,4 +12,6 @@
 
 @import url(../blocks/article/article.css);
 
+@import url(../blocks/translation/translation.css);
+
 @import url(../blocks/footer/footer.css);
