@@ -2,11 +2,14 @@
 @import url(../vendor/fonts/fonts.css);
 
 @import url(../blocks/page/page.css);
+@import url(../blocks/rubric/rubric.css);
 
 @import url(../blocks/main/main.css);
 
 @import url(../blocks/project-banner/project-banner.css);
 
 @import url(../blocks/story/story.css);
+
+@import url(../blocks/article/article.css);
 
 @import url(../blocks/footer/footer.css);
