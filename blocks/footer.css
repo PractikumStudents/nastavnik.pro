@@ -1,0 +1,73 @@
+.footer {
+    position: relative;
+    padding: 90px 360px 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer__promo {
+    max-width: 670px;
+    width: 100%;
+}
+
+.footer__promo-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer__logo-link {
+    margin: 0;
+    padding: 0;
+}
+
+.footer__logo {
+    max-width: 415px;
+    min-height: 76px;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.footer__copyright {
+    margin: 0;
+    padding: 124px 0 0;
+}
+
+.footer__design {
+    padding: 12px 0 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer__design-students {
+    margin: 0;
+    padding: 0;
+}
+
+.footer__design-designers {
+    margin: 0;
+    padding: 0 0 0 30px;
+}
+
+.footer__navigation {
+    padding: 0 0 0 130px;
+    list-style: none;
+    margin: 0;
+}
+
+.footer__point {
+    padding: 20px 0 0;
+}
+
+.footer__navigation-link {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.footer__contacts {
+    padding: 0 0 0 45px;
+    list-style: none;
+    margin: 0;
+}

@@ -1,6 +1,14 @@
 .tag-calendar {
     border-radius: 100px;
-    border: 1px solid #000000;
     box-sizing: border-box;
     padding: 13px 20px 16px;
+    align-self: center;
+}
+
+.tag-calendar_border_black {    
+    border: 1px solid #000000;
+}
+
+.tag-calendar_border_light {    
+    border: 1px solid #F3F2F2;
 }
