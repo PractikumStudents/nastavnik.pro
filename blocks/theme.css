@@ -25,3 +25,11 @@
 .theme_blue {
     background: #224CFF;
 }
+
+.theme_black {
+    background: #000;
+}
+
+.content_white {
+    color: white;
+}

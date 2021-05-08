@@ -1,4 +1,6 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
+@import url(../blocks/page.css);
 @import url(../blocks/ui-kit.css);
 @import url(../blocks/text-styles.css);
+@import url(../blocks/calendar-diary.css);
