@@ -1,0 +1,33 @@
+.story {
+  width: 870px;
+  background: url(../../images/image-story.jpg) no-repeat center;
+  overflow: hidden;
+  border-radius: 30px;
+  mix-blend-mode: multiply;
+}
+
+.story__link {
+  display: flex;
+  min-height: 520px;
+  background: #464646;
+  opacity: 0.8;
+  font-family: Proto Grotesk Web Light,
+  sans-serif;
+  font-weight: 300;
+  font-size: 23px;
+  line-height: 1.30;
+  text-align: center;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.story__text {
+  margin: auto;
+  width: 770px;
+}
+
+@media screen and (max-width:1440px) {
+  .story__text {
+    display: none;
+  }
+}
