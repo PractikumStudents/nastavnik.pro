@@ -84,3 +84,41 @@
 .article__text:not(:last-child){
   margin-bottom: 40px;
 }
+
+.article_type_simple {
+  display: block;
+  padding-top: 120px;
+  padding-bottom: 30px;
+  border-radius: 30px;
+}
+
+.article_color_light-blue {
+  background: #C8D1FF;
+}
+
+.article_color_green {
+  background: #8CDD94;
+}
+
+.article__quote {
+  margin: 0 auto 70px;
+  max-width: 930px;
+  font-family: Proto Grotesk Web Light, sans-serif;
+  font-weight: 300;
+  font-size: 44px;
+  line-height: 1.14;
+  text-align: center;
+  color: #1A1A1A;
+}
+
+.article__link {
+  display: block;
+  width: 104px;
+  margin: 0 auto ;
+  font-family: Proto Grotesk Web Light, sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.27;
+  letter-spacing: 0.2px;
+  color: #224CFF;
+}
