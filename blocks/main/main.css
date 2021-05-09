@@ -2,7 +2,7 @@
   max-width: 1770px;
   margin: 0 auto 120px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(4, minmax(min-content, 1fr));
   grid-template-rows: repeat(7, minmax(min-content, max-content));
   grid-template-areas: 
   "banner banner story story"
@@ -14,6 +14,58 @@
   "simpleArticleGreen simpleArticleGreen simpleArticleGreen simpleArticleGreen"
   ;
   gap: 30px;
+}
+
+@media screen and (max-width: 1770px) {
+  .main {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .main {
+    max-width: 1170px;
+    width: 100%;
+    grid-template-columns: repeat(3, minmax(min-content, 1fr));
+    grid-template-areas: 
+    "banner story"
+    "article article article "
+    "simpleArticlePurple simpleArticlePurple simpleArticlePurple "
+    "video video video "
+    "translation translation translation "
+    "facebook faq faq "
+    "simpleArticleGreen simpleArticleGreen simpleArticleGreen "
+    ;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .main {
+    max-width: 790px;
+    width: 100%;
+    grid-template-columns: repeat(2, minmax(min-content, 1fr));
+    grid-template-areas:
+      "banner story"
+      "article article"
+      "simpleArticlePurple simpleArticlePurple"
+      "video video"
+      "translation translation"
+      "facebook faq"
+      "simpleArticleGreen simpleArticleGreen"
+    ;
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    max-width: 290px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 .main__project-banner {
@@ -38,4 +90,25 @@
 
 .main__facebook {
   grid-area: facebook;
+}
+
+@media screen and (max-width:1770px) {
+  .main__video {
+    max-width: 370px;
+  }
+}
+
+@media screen and (max-width:1440px) {
+  .main__video:nth-last-of-type(4n) {
+    display: none;
+  }
+}
+
+@media screen and (max-width:1440px) {
+  .main__video:nth-last-of-type(4n) {
+    display: none;
+  }
+  .main__video:nth-last-of-type(3n) {
+    display: none;
+  }
 }

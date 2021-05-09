@@ -3,12 +3,47 @@
   display: flex;
 }
 
+@media screen and (max-width: 1770px) {
+  .translation {
+    max-height: 451px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .translation {
+    flex-direction: column;
+    max-height: 585px;
+  }
+}
+
 .translation__preview {
   box-sizing: border-box;
-  min-width: 570px;
+  width: 570px;
+  width: 100%;
   padding: 30px 50px;
   background: #F8D162;
   border-radius: 30px;
+}
+
+@media screen and (max-width: 1770px) {
+  .translation__preview {
+    flex-basis: 29%;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .translation__preview {
+    max-height: 451px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .translation__preview {
+    order: 2;
+    flex-basis: 100%;
+    max-height: 147px;
+    padding: 15px;
+  }
 }
 
 .translation__title {
@@ -21,6 +56,13 @@
   text-align: center;
 }
 
+@media screen and (max-width: 1024px) {
+  .translation__title {
+    font-size: 19px;
+    line-height: 23px;
+  }
+}
+
 .translation__subtitle {
   margin: 0;
   margin-bottom: 542px;
@@ -30,6 +72,20 @@
   text-align: center;
   letter-spacing: 0.2px;
   color: #464646;
+}
+
+@media screen and (max-width: 1024px) {
+  .translation__subtitle {
+    font-size: 12px;
+    line-height: 1.42;
+    margin-bottom: 55px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .translation__subtitle {
+    margin-bottom: 32px;
+  }
 }
 
 .translation__link {
@@ -45,8 +101,46 @@
   text-decoration: none;
 }
 
+@media screen and (max-width: 1024px) {
+  .translation__link {
+    font-size: 12px;
+    line-height: 1.42;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .translation__link {
+    width: 109px;
+    font-size: 12px;
+    line-height: 1.42;
+  }
+}
+
 .translation__video {
-  width: 1199px;
+  max-width: 1199px;
+  width: 100%;
   border-radius: 30px;
-  background: url(../../images/bg-image-translation.jpg) no-repeat center;
+  background: url(../../images/bg-image-translation.jpg) no-repeat center/cover;
+}
+
+@media screen and (max-width: 1440px) {
+  .translation__video {
+    max-width: 800px;
+    background-size: 100% 451px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .translation__video {
+    order: 1;
+    min-height: 438px;
+    flex-basis: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .translation__video {
+    background: url(../../images/image-translation-mob.jpg) no-repeat center/contain;
+    min-height: 165px;
+  }
 }

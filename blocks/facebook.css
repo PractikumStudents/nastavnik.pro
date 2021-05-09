@@ -1,3 +1,18 @@
 .facebook {
+  max-width: 420px;
+  width: 100%;
+  height: 601px;
   border-radius: 30px;
+}
+
+@media screen and (max-width: 1440px) {
+  .facebook {
+    height: 688px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .facebook {
+    height: 552px;
+  }
 }

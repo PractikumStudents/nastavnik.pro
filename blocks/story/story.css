@@ -1,9 +1,31 @@
 .story {
-  width: 870px;
+  max-width: 870px;
   background: url(../../images/image-story.jpg) no-repeat center;
   overflow: hidden;
   border-radius: 30px;
   mix-blend-mode: multiply;
+}
+
+@media screen and (max-width:1440px) {
+  .story {
+    width: 570px;
+    margin-left: -180px;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .story {
+    width: 370px;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .story {
+    width: 290px;
+    min-height: 290px;
+    margin-left: 0;
+  }
 }
 
 .story__link {
@@ -19,6 +41,12 @@
   text-align: center;
   color: #FFFFFF;
   text-decoration: none;
+}
+
+@media screen and (max-width: 1440px) {
+  .story__link {
+    display: none;
+  }
 }
 
 .story__text {
