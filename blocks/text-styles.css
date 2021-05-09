@@ -1,16 +1,30 @@
-.header__title {
+.title {
     font-family: Proto Grotesk Web Light;
     font-style: normal;
     font-weight: 300;
     font-size: 25px;
     line-height: 28px;
-    color: #224CFF;
 }
 
-@media screen and (max-width: 1024) {
-    .header__title {
+@media screen and (max-width: 1024px) {
+    .title {
         font-size: 17.5px;
         line-height: 17px;
+    }
+}
+
+.title__page {
+    font-family: Proto Grotesk Web Light;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 74px;
+    line-height: 80px;
+}
+
+@media screen and (max-width: 1024px) {
+    .title__page {
+        font-size: 37px;
+        line-height: 39px;
     }
 }
 
@@ -22,7 +36,6 @@
     line-height: 17px;
     letter-spacing: 0.2px;
     text-transform: uppercase;
-    color: #000000;
 }
 
 .podpis {
@@ -32,11 +45,10 @@
     font-weight: normal;
     font-size: 14px;
     line-height: 19px;
-    letter-spacing: 0.2px;
-    color: #464646;
+    letter-spacing: 0.2px;   
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .podpis {
         font-size: 12px;
         line-height: 17px;
@@ -50,10 +62,9 @@
     font-weight: 300;
     font-size: 23px;
     line-height: 30px;
-    color: #000000;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .content {
         font-size: 19px;
         line-height: 23px;
@@ -74,7 +85,7 @@
     color: #000000;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .number {
         font-size: 60px;
         line-height: 60px;
@@ -105,14 +116,14 @@
     margin: 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .im-afraid-the-child {
         font-size: 19px;
         line-height: 23px;
     }
 }
 
-.category {
+.tag_bottom {
     font-family: Proto Grotesk Web Light;
     font-style: normal;
     font-weight: 300;
@@ -120,12 +131,11 @@
     line-height: 19px;
     text-align: center;
     letter-spacing: 0.2px;
-    color: #224CFF;
     margin: 0;
 }
 
-@media screen and (max-width: 768px) {
-    .category {
+@media screen and (max-width: 1024px) {
+    .tag_bottom {
         font-size: 12px;
         line-height: 17px;
     }
@@ -137,11 +147,10 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 26px;
-    color: #000000;
     margin: 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .body {
         font-size: 15px;
         line-height: 21px;

@@ -8,7 +8,7 @@
     border: 1px solid red;
 }  
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .article-where-to-go {
         max-width: 290px;
         min-height: 176px;
@@ -37,7 +37,7 @@
     align-self: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .article-where-to-go__title {
         max-width: 260px;
     }
@@ -51,7 +51,7 @@
     text-align: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .article-where-to-go__author {
         max-width: 260px;
     }
@@ -65,7 +65,7 @@
     align-self: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .article-where-to-go__about {
         max-width: 94px;
         padding-top: 16px;
