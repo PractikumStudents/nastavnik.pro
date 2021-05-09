@@ -1,6 +1,5 @@
 .calendar-cell {
     position: relative;
-    border: 1px solid red;
     max-width: 570px;
     min-height: 414px;
     width: 100%;
