@@ -1,20 +1,7 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
-
-@import url(../blocks/header/header.css);
-
-@import url(../blocks/main/main.css);
-
-/* стили card-website */
-@import url(../blocks/card-website/card-website.css);
-
-/* стили card-article */
-@import url(../blocks/card-article/card-article.css);
-
-/* стили footer */
-@import url(../blocks/footer/footer.css);
-
-@import url(../blocks/calendar/calendar.css);
-@import url(../blocks/button/button.css);
+@import url(../blocks/page.css);
 @import url(../blocks/ui-kit.css);
 @import url(../blocks/text-styles.css);
+@import url(../blocks/calendar-diary.css);
+@import url(../blocks/calendar__popup.css);

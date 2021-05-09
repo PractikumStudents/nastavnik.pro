@@ -6,9 +6,10 @@
     height: 100%;
     border-radius: 30px;    
     padding: 30px 90px;
+    border: 1px solid red;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .book {
         max-width: 200px;
         min-height: 270px;
@@ -28,7 +29,7 @@
     align-items: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .book__card {
         max-width: 200px;
         min-height: 270px;
@@ -57,7 +58,7 @@
     border-bottom: 1px solid #000000;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .book__line {
         max-width: 60px;
     }

@@ -9,7 +9,7 @@
     border: 1px solid red;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .description {
         max-width: 260px;
         min-height: 68px;
@@ -27,7 +27,7 @@
     margin: 0 auto;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .description__content {
         max-height: 128px;
     }
@@ -38,7 +38,7 @@
     background-color: transparent;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .description__content::-webkit-scrollbar {
         max-width: 3px;
     }
