@@ -1,0 +1,130 @@
+.popup {
+    position: relative;
+    display: block;
+    max-width: 570px;
+    width: 100%;
+    padding: 50px 100px;
+    border-radius: 30px;
+}
+
+.popup__mobile {
+    position: relative;
+    display: block;
+    max-width: 260px;
+    width: 100%;
+    padding: 60px 15px 30px;
+    border-radius: 30px;
+}
+
+.popup__close {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    background-image: url(./../images/popup-close.svg);
+    background-size: 20px, cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #FFFFFF;
+    padding: 10px;
+    max-width: 40px;
+    min-height: 40px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 320px) {
+    .popup__close {
+        right: 15px;
+        top: 15px;
+    }
+}
+
+.calendar__popup-exposition {
+    margin: 0;
+    padding: 30px 0 0;
+}
+
+.popup__submit {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 570px;
+    width: 100%;
+    padding: 250px 100px;
+    border-radius: 30px;
+}
+
+.popup__submit-operation {
+    padding: 30px 0 0;
+    max-width: 320px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.popup__submit-title {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.popup__submit-about {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.popup__submit-registration {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.popup__success {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 570px;
+    width: 100%;
+    padding: 80px 100px;
+    border-radius: 30px;
+}
+
+.popup__success-image {
+    background-image: url(./../images/popup-sucsess-image.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 413px, 169px, cover;
+    max-width: 413px;
+    min-height: 169px;
+    width: 100%;
+    height: 100%;
+}
+
+.popup__success-title {
+    padding: 30px 0 0;
+    text-align: center;
+    margin: 0;
+}
+
+.popup__success-about {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.popup__success-registration {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.popup__success-notification {
+    padding: 40px 0;
+    text-align: center;
+    margin: 0;
+}
