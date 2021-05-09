@@ -11,6 +11,18 @@
     align-items: center;
 }
 
+@media screen and (max-width: 1024px) {
+    .calendar-lead {
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .calendar-lead {
+        padding-top: 30px;
+    }
+}
+
 .calendar-lead__title {
     margin: 0;
     text-align: center;
@@ -25,6 +37,12 @@
     flex-direction: row;
 }
 
+@media screen and (max-width: 1024px) {
+    .calendar-diary__months {
+        padding-top: 20px;
+    }
+}
+
 .calendar-diary__content {
     padding: 80px 105px 120px;
     display: grid;
@@ -34,7 +52,7 @@
     row-gap: 30px;
     align-content: start;
     align-items: center;
-    justify-content: center;
+    justify-content: stretch;
     justify-items: center;
 }
 
@@ -48,8 +66,18 @@
 
 @media screen and (max-width: 1024px) {
     .calendar-diary__content {
-        padding: 50px 127px 100px;
+        padding: 50px 13% 100px;
         grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1;
+        column-gap: 60px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .calendar-diary__content {
+        padding: 30px 30px 50px;
+        grid-template-columns: 1fr;
         grid-template-rows: repeat(1, 1fr);
+        row-gap: 30px;
     }
 }
