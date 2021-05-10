@@ -25,3 +25,39 @@
 .theme_blue {
     background: #224CFF;
 }
+
+.theme_black {
+    background: #000;
+}
+
+.theme_dark_blue {
+    background: #2E2468;
+}
+
+.content_blue {
+    color: #224CFF;
+}
+
+.content_white {
+    color: white;
+}
+
+.content_light_blue {
+    color: #C8D1FF;
+}
+
+.content_black {
+    color: black;
+}
+
+.content_light {
+    color: #F3F2F2;
+}
+
+.content_graphit {
+    color: #1A1A1A;
+}
+
+.content_grey {
+    color: #464646;
+}

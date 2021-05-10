@@ -3,10 +3,12 @@
     max-width: 420px;
     min-height: 169px;
     width: 100%;
-    border-radius: 0 0 30px 30px;   
+    height: 100%;
+    border-radius: 0 0 30px 30px;
+    border: 1px solid red;    
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .film-about {
         max-width: 290px;
         min-height: 147px;
@@ -28,7 +30,7 @@
     text-align: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .film-about__title {
         max-width: 230px;
     }
@@ -41,7 +43,7 @@
     padding-top: 5px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .film-about__author {
         max-width: 230px;
     }
@@ -54,7 +56,7 @@
     padding-top: 17px;    
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .film-about__trailer {
         max-width: 109px;
         padding-top: 15px;
