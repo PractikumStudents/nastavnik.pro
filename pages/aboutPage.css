@@ -2,12 +2,12 @@
 @import url(../vendor/fonts/fonts.css);
 
 @import url(../blocks/page.css);
-/* стили header */
+@import url(../blocks/text-styles.css);
+@import url(../blocks/theme.css);
+
 @import url(../blocks/header.css);
 @import url(../blocks/header-mobile.css);
 
-/* стили main */
 @import url(../blocks/about/about.css);
 
-/* стили footer */
 @import url(../blocks/footer/footer.css);
