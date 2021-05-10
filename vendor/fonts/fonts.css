@@ -10,12 +10,12 @@
 
 @font-face {
 	src: url('./PT-Root-UI_Regular.woff') format('woff');
-	font-family: 'Proto Grotesk-Light-Web';
+	font-family: 'PT Root UI';
 }
 
 @font-face {
 	src: url('./PT-Root-UI_Regular.woff2') format('woff2');
-	font-family: 'Proto Grotesk-Light-Web';
+	font-family: 'PT Root UI';
 }
 
 @import url(./PT\ Root\ UI_Regular.css);
