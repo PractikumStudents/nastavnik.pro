@@ -4,7 +4,7 @@
 @import url(../blocks/page.css);
 @import url(../blocks/page__width.css);
 @import url(../blocks/main-content.css);
-@import url(../blocks/text-styles.css);
+@import url(../blocks/page__text.css);
 @import url(../blocks/theme.css);
 
 @import url(../blocks/header.css);
@@ -13,4 +13,4 @@
 @import url(../blocks/main-buttons.css);
 @import url(../blocks/stories.css);
 
-@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer.css);

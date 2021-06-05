@@ -1,4 +1,4 @@
-.title {
+.page__text-title-S {
     font-family: Proto Grotesk Web Light;
     font-style: normal;
     font-weight: 300;
@@ -6,14 +6,29 @@
     line-height: 28px;
 }
 
-@media screen and (max-width: 1024px) {
-    .title {
+@media screen and (max-width: 1190px) {
+    .page__text-title-S {
         font-size: 17.5px;
         line-height: 17px;
     }
 }
 
-.title__page {
+.page__text-title-M {
+    font-family: Proto Grotesk Web Light;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 44px;
+    line-height: 50px;
+}
+
+@media screen and (max-width: 1190px) {
+  .page__text-title-M {
+    font-size: 23px;
+    line-height: 30px;
+  }
+}
+
+.page__text-title-L {
     font-family: Proto Grotesk Web Light;
     font-style: normal;
     font-weight: 300;
@@ -21,14 +36,14 @@
     line-height: 80px;
 }
 
-@media screen and (max-width: 1024px) {
-    .title__page {
+@media screen and (max-width: 1190px) {
+    .page__text-title-L {
         font-size: 37px;
         line-height: 39px;
     }
 }
 
-.menu {
+.page__text-menu {
     font-family: Proto Grotesk Web Light;
     font-style: normal;
     font-weight: 300;
@@ -38,7 +53,7 @@
     text-transform: uppercase;
 }
 
-.podpis {
+.page__text-subtitle {
     margin: 0;
     font-family: PT Root UI;
     font-style: normal;
@@ -47,15 +62,18 @@
     line-height: 19px;
     letter-spacing: 0.2px;   
 }
+.page__text-subtitle_color_gray {
+  color: #464646;
+}
 
-@media screen and (max-width: 1024px) {
-    .podpis {
+@media screen and (max-width: 1190px) {
+    .page__text-subtitle {
         font-size: 12px;
         line-height: 17px;
     }
 }
 
-.content {
+.page__text-content {
     margin: 0;
     font-family: Proto Grotesk Web Light;
     font-style: normal;
@@ -64,14 +82,14 @@
     line-height: 30px;
 }
 
-@media screen and (max-width: 1024px) {
-    .content {
+@media screen and (max-width: 1190px) {
+    .page__text-content {
         font-size: 19px;
         line-height: 23px;
     }
 }
 
-.number {
+.page__text-number {
     margin: 0;
     font-family: Proto Grotesk Web Light;
     font-style: normal;
@@ -85,14 +103,14 @@
     color: #000000;
 }
 
-@media screen and (max-width: 1024px) {
-    .number {
+@media screen and (max-width: 1190px) {
+    .page__text-number {
         font-size: 60px;
         line-height: 60px;
     }
 }
 
-.completion {
+.page__text-completion {
     font-family: PT Root UI;
     font-style: normal;
     font-weight: normal;
@@ -105,7 +123,7 @@
     margin: 0;
 }
 
-.im-afraid-the-child {
+.page__text-meetup {
     font-family: Proto Grotesk Web Light;
     font-style: normal;
     font-weight: 300;
@@ -116,32 +134,35 @@
     margin: 0;
 }
 
-@media screen and (max-width: 1024px) {
-    .im-afraid-the-child {
+@media screen and (max-width: 1190px) {
+    .page__text-meetup{
         font-size: 19px;
         line-height: 23px;
     }
 }
 
-.tag_bottom {
-    font-family: Proto Grotesk Web Light;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 15px;
-    line-height: 19px;
-    text-align: center;
-    letter-spacing: 0.2px;
-    margin: 0;
+.page__text-tag {
+  font-family: Proto Grotesk Web Light;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  margin: 0;
+}
+.page__text-tag_color_blue {
+  color: #224CFF
 }
 
-@media screen and (max-width: 1024px) {
-    .tag_bottom {
+@media screen and (max-width: 1190px) {
+    .page__text-tag {
         font-size: 12px;
         line-height: 17px;
     }
 }
 
-.body {
+.page__text-body {
     font-family: PT Root UI;
     font-style: normal;
     font-weight: normal;
@@ -150,8 +171,8 @@
     margin: 0;
 }
 
-@media screen and (max-width: 1024px) {
-    .body {
+@media screen and (max-width: 1190px) {
+    .page__text-body {
         font-size: 15px;
         line-height: 21px;
     }
