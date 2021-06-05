@@ -8,6 +8,6 @@
 @import url(../blocks/header.css);
 @import url(../blocks/header-mobile.css);
 
-@import url(../blocks/about/about.css);
+@import url(../blocks/about.css);
 
-@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer.css);
