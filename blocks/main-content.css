@@ -1,0 +1,28 @@
+.main-content {
+  max-width: 1770px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1910px) {
+  .main-content {
+    max-width: 1170px;
+  }
+}
+
+@media (max-width: 1190px) {
+  .main-content {
+    max-width: 770px;
+  }
+}
+
+@media (max-width: 790px) {
+  .main-content {
+    max-width: 490px;
+  }
+}
+
+@media (max-width: 500px) {
+  .main-content {
+    max-width: 290px;
+  }
+}
