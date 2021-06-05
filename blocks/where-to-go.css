@@ -1,0 +1,17 @@
+.where-to-go__header {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.where-to-go__title {
+    margin: 0;
+    padding: 150px 0 0;
+    text-align: center;
+}
+
+.where-to-go__menu {
+    padding: 15px 0 0;
+}
