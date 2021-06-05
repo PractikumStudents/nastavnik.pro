@@ -1,8 +1,13 @@
 .main-buttons {
   display: flex;
+  flex-wrap: nowrap;
   list-style: none;
   margin: 40px auto 80px;
   padding: 0;
+  overflow: auto;
+}
+.main-buttons::-webkit-scrollbar {
+  width: 0;
 }
 .main-button {
   height: 48px;
@@ -17,6 +22,7 @@
   border-radius: 100px;
   outline: none;
   padding: 13px 20px 16px;
+  white-space: nowrap;
 }
 .main-button_black {
   color: #F3F2F2;
@@ -28,9 +34,26 @@
   transition: opacity .2s linear;
 }
 
+.arrow {
+  width: 40px;
+  height: 40px;
+  background: none;
+  background-image: url(../images/arrow-right.svg);
+  border-style: none;
+  outline: none;
+  margin-left: 10px;
+  margin-top: 4px;
+  padding: 0;
+}
+.arrow:hover {
+  cursor: pointer;
+  opacity: 0.6;
+  transition: opacity .2s linear;
+}
+
 @media (max-width: 1190px) {
   .main-buttons {
-    width: 770px;
+    margin: 30px auto 50px;
   }
   .main-button {
     height: 40px;
@@ -38,16 +61,17 @@
     line-height: 17px;
     padding: 11px 15px 12px;
   }
+  .arrow {
+    display: none;
+  }
 }
 
 @media (max-width: 790px) {
-  .main-buttons {
-    max-width: 490px;
-  }
+  
 }
 
 @media (max-width: 500px) {
   .main-buttons {
-    max-width: 290px;
+     margin: 20px auto 30px;
   }
 }
